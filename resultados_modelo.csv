@@ -1,0 +1,11 @@
+﻿rotulo;rodada;replicas;taxa;rotas_ok;sucessos_por_s;falhas_pct;p95_latencia_ok_ms;dropped_iterations_medicao;status_job;cpu_observada_por_pod;distribuicao_aceitos_por_pod;observacoes
+piloto;calibracao;1;;;;;;;;;;
+3pods-a;A;3;1;60;1.00;0.00;978.47;0;Concluído - falha no threshold de latência;59m,60m,61m CPU / 13Mi,13Mi,13Mi memória;;
+1pod-a;A;1;1;55;0.92;9.83;1010;0;Concluído - thresholds de falhas e latência;Não registrado;Não confirmado;Falhas acima de 1% e p95 acima de 800 ms
+2pods-a;A;2;1;54;0.90;11.47;1030;0;Concluído - thresholds de falhas e latência;Não registrado;31 aceitos/5 recusados no Pod czptl e 32 aceitos/3 recusados no Pod d5cs4;Falhas acima de 1% e p95 acima de 800 ms
+2pods-b;B;2;1;50;0.83;18.03;1320;0;Concluído - thresholds de falhas e latência;Não registrado;czptl: +29 aceitos/+5 recusados, d5cs4: +31 aceitos/+6 recusados;Falhas acima de 1% e p95 acima de 800 ms
+3pods-b;B;3;1;56;0.93;8.19;1230;0;Concluído - thresholds de falhas e latência;Não registrado;czptl: +15 aceitos/+2 recusados, d5cs4: +27 aceitos/+3 recusados, fd7tn: delta não confirmado;Falhas acima de 1% e p95 acima de 800 ms
+1pod-b;B;1;1;50;0.83;18.03;1070;0;Concluído - thresholds de falhas e latência;Não registrado;czptl: +59 aceitos/+13 recusados;Falhas acima de 1% e p95 acima de 800 ms
+1pod-c;C;1;1;60;1.00;0.00;971.42;0;Concluído - threshold de latência excedido;Não registrado;czptl: +71 aceitos/+0 recusados;Falhas dentro do limite, mas p95 acima de 800 ms
+2pods-c;C;2;1;52;0.87;13.33;1190;0;Concluído - thresholds de falhas e latência;Não registrado;2fgcr: +34 aceitos/+0 recusados, czptl: +28 aceitos/+8 recusados;Reexecução: thresholds de falhas e latência excedidos
+3pods-c;C;3;1;56;0.93;8.19;1090;0;Concluído - thresholds de falhas e latência excedidos;Não registrado;czptl: +18 aceitos/+0 recusados, lp6kg: delta não confirmado, nm9ks: delta não confirmado;Falhas acima de 1% e p95 acima de 800 ms
